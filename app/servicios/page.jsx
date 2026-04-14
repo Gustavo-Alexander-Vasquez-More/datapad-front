@@ -31,6 +31,8 @@ export const metadata = {
   },
 };
 
+export const runtime = 'edge';
+
 const services = [
   {
     name: 'Diseño de Hologramas Personalizados',
