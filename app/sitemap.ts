@@ -1,7 +1,10 @@
 import { MetadataRoute } from 'next'
+
+// ESTO ES CLAVE PARA CLOUDFLARE:
+export const dynamic = 'force-static'
  
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://datapad.xvalsites.xyz'; // <-- CAMBIAR: URL de tu sitio
+  const baseUrl = 'https://datapad.xvalsites.xyz';
 
   return [
     {
@@ -22,6 +25,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.8,
     },
-    // Aquí añadirías más URLs, como las de tus productos
   ]
 }
