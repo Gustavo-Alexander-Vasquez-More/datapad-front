@@ -3,8 +3,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Target, Eye, Users, Building } from 'lucide-react';
 
-export const runtime = 'edge';
-
 export default function NosotrosPage() {
   return (
     <div className="bg-white">
