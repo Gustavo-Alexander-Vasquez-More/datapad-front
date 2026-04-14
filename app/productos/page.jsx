@@ -1,8 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
 import ProductSearch from '../components/ProductSearch';
 import { SearchX } from 'lucide-react'; // Icono adicional para cuando no hay resultados
 
