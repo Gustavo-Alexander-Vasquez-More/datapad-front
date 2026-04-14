@@ -6,9 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint",
-    "pages:build": "npx @cloudflare/next-on-pages",
-    "deploy": "npx wrangler pages deploy .vercel/output/static --project-name datapad-front"
+    "lint": "eslint"
   },
   "dependencies": {
     "embla-carousel-react": "^8.6.0",
